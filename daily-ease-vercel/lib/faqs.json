@@ -1,0 +1,337 @@
+{
+ "faqs": [
+  {
+   "id": "book",
+   "kws": [
+    "book",
+    "booking",
+    "hire",
+    "request",
+    "बुक",
+    "बुकिंग",
+    "kaise book",
+    "how to book",
+    "service lena"
+   ],
+   "texts": {
+    "en": [
+     "How do I book a service?",
+     "Go to Find Services, filter by service or city, press 'Book now' on a worker, add the job details, date and time, and send the request. You need a customer account."
+    ],
+    "hi": [
+     "सेवा कैसे बुक करूँ?",
+     "'सेवाएँ खोजें' में जाएँ, सेवा या शहर चुनें, वर्कर पर 'अभी बुक करें' दबाएँ, काम का विवरण, तारीख़ और समय भरकर अनुरोध भेजें। इसके लिए ग्राहक खाता चाहिए।"
+    ],
+    "hinglish": [
+     "Service kaise book karein?",
+     "'Services Khojein' mein jayein, service ya shehar chunein, worker par 'Abhi book karein' dabayein, kaam ki details, date aur time bharkar request bhejein. Customer account zaroori hai."
+    ]
+   }
+  },
+  {
+   "id": "register",
+   "kws": [
+    "register",
+    "signup",
+    "sign up",
+    "account",
+    "create",
+    "रजिस्टर",
+    "खाता",
+    "account banana",
+    "naya account"
+   ],
+   "texts": {
+    "en": [
+     "How do I create an account?",
+     "Open Register, choose Customer or Worker, enter your name, email and a password of at least 8 characters, then log in."
+    ],
+    "hi": [
+     "खाता कैसे बनाऊँ?",
+     "'रजिस्टर करें' खोलें, ग्राहक या वर्कर चुनें, नाम, ईमेल और कम से कम 8 अक्षर का पासवर्ड भरें, फिर लॉगिन करें।"
+    ],
+    "hinglish": [
+     "Account kaise banayein?",
+     "'Register karein' kholein, Customer ya Worker chunein, naam, email aur kam se kam 8 characters ka password bharein, phir login karein."
+    ]
+   }
+  },
+  {
+   "id": "worker",
+   "kws": [
+    "become worker",
+    "join as worker",
+    "worker",
+    "earn",
+    "work",
+    "वर्कर",
+    "काम चाहिए",
+    "kaam chahiye",
+    "worker banna"
+   ],
+   "texts": {
+    "en": [
+     "How can I work as a service provider?",
+     "Register as a Worker, then open Worker Dashboard and complete your profile (service, city, rate, skills, optional photo). Once saved, customers can find and book you."
+    ],
+    "hi": [
+     "मैं सेवा देने वाले के रूप में कैसे जुड़ूँ?",
+     "वर्कर के रूप में रजिस्टर करें, फिर वर्कर डैशबोर्ड में प्रोफ़ाइल पूरी करें (सेवा, शहर, दर, हुनर, वैकल्पिक फ़ोटो)। सहेजते ही ग्राहक आपको बुक कर सकेंगे।"
+    ],
+    "hinglish": [
+     "Main worker ke roop mein kaise judun?",
+     "Worker ke roop mein register karein, phir Worker Dashboard mein profile poori karein (service, shehar, rate, skills, optional photo). Save karte hi customers aapko book kar sakenge."
+    ]
+   }
+  },
+  {
+   "id": "cancel",
+   "kws": [
+    "cancel",
+    "cancellation",
+    "रद्द",
+    "कैंसिल",
+    "booking cancel",
+    "cancel karna"
+   ],
+   "texts": {
+    "en": [
+     "Can I cancel a booking?",
+     "Yes. In My Bookings, press 'Cancel booking' on a pending or accepted request. Completed bookings cannot be cancelled."
+    ],
+    "hi": [
+     "क्या मैं बुकिंग रद्द कर सकता हूँ?",
+     "हाँ। 'मेरी बुकिंग' में लंबित या स्वीकृत अनुरोध पर 'बुकिंग रद्द करें' दबाएँ। पूर्ण बुकिंग रद्द नहीं हो सकती।"
+    ],
+    "hinglish": [
+     "Kya main booking cancel kar sakta hoon?",
+     "Haan. 'Meri Bookings' mein pending ya accepted request par 'Booking cancel karein' dabayein. Completed booking cancel nahi hoti."
+    ]
+   }
+  },
+  {
+   "id": "payment",
+   "kws": [
+    "pay",
+    "payment",
+    "price",
+    "cost",
+    "charge",
+    "rate",
+    "fee",
+    "भुगतान",
+    "पैसे",
+    "कीमत",
+    "paisa",
+    "paise",
+    "kitna"
+   ],
+   "texts": {
+    "en": [
+     "How does payment work?",
+     "Daily Ease does not process payments. The worker's hourly rate is shown on their card; agree the final amount and pay the worker directly after the job."
+    ],
+    "hi": [
+     "भुगतान कैसे होता है?",
+     "डेली ईज़ में भुगतान नहीं होता। वर्कर की प्रति घंटा दर उनके कार्ड पर दिखती है; अंतिम राशि तय करके काम के बाद सीधे वर्कर को भुगतान करें।"
+    ],
+    "hinglish": [
+     "Payment kaise hota hai?",
+     "Daily Ease par payment process nahi hota. Worker ka per ghanta rate unke card par dikhta hai; final amount tay karke kaam ke baad seedha worker ko pay karein."
+    ]
+   }
+  },
+  {
+   "id": "verified",
+   "kws": [
+    "verified",
+    "verification",
+    "trust",
+    "trusted",
+    "सत्यापित",
+    "भरोसा",
+    "bharosa",
+    "verify"
+   ],
+   "texts": {
+    "en": [
+     "What does 'Verified' mean?",
+     "A Verified badge means an administrator has reviewed the worker's profile. Verified workers are listed first. Always check ratings and reviews too."
+    ],
+    "hi": [
+     "'सत्यापित' का क्या मतलब है?",
+     "सत्यापित बैज का मतलब है कि एडमिन ने वर्कर की प्रोफ़ाइल जाँची है। ऐसे वर्कर सूची में पहले दिखते हैं। रेटिंग और रिव्यू भी देखें।"
+    ],
+    "hinglish": [
+     "'Verified' ka kya matlab hai?",
+     "Verified badge ka matlab hai ki admin ne worker ki profile check ki hai. Aise workers list mein pehle dikhte hain. Rating aur reviews bhi zaroor dekhein."
+    ]
+   }
+  },
+  {
+   "id": "rating",
+   "kws": [
+    "rating",
+    "review",
+    "rate",
+    "feedback",
+    "रेटिंग",
+    "रिव्यू",
+    "stars"
+   ],
+   "texts": {
+    "en": [
+     "How do I rate a worker?",
+     "After a booking is marked Completed, open My Bookings, choose 1–5 stars, optionally write a review and submit. You can rate once per booking."
+    ],
+    "hi": [
+     "वर्कर को रेटिंग कैसे दूँ?",
+     "बुकिंग 'पूर्ण' होने के बाद 'मेरी बुकिंग' खोलें, 1–5 स्टार चुनें, चाहें तो रिव्यू लिखें और भेजें। हर बुकिंग पर एक बार रेटिंग दे सकते हैं।"
+    ],
+    "hinglish": [
+     "Worker ko rating kaise dein?",
+     "Booking 'Completed' hone ke baad 'Meri Bookings' kholein, 1–5 stars chunein, chahein to review likhein aur bhejein. Har booking par ek baar rating de sakte hain."
+    ]
+   }
+  },
+  {
+   "id": "status",
+   "kws": [
+    "status",
+    "pending",
+    "accepted",
+    "response",
+    "wait",
+    "स्थिति",
+    "लंबित",
+    "kitna time",
+    "jawab"
+   ],
+   "texts": {
+    "en": [
+     "What do booking statuses mean?",
+     "Pending: waiting for the worker. Accepted: worker confirmed. Rejected: worker declined. Completed: job done. Cancelled: cancelled by you or admin."
+    ],
+    "hi": [
+     "बुकिंग की स्थिति का क्या मतलब है?",
+     "लंबित: वर्कर के जवाब का इंतज़ार। स्वीकृत: वर्कर ने मान लिया। अस्वीकृत: वर्कर ने मना किया। पूर्ण: काम हो गया। रद्द: आपने या एडमिन ने रद्द किया।"
+    ],
+    "hinglish": [
+     "Booking status ka matlab kya hai?",
+     "Pending: worker ke jawab ka wait. Accepted: worker ne confirm kiya. Rejected: worker ne mana kiya. Completed: kaam ho gaya. Cancelled: aapne ya admin ne cancel kiya."
+    ]
+   }
+  },
+  {
+   "id": "contact",
+   "kws": [
+    "phone",
+    "contact",
+    "number",
+    "call",
+    "संपर्क",
+    "नंबर",
+    "number kaise"
+   ],
+   "texts": {
+    "en": [
+     "When can I see the worker's phone number?",
+     "For privacy, phone numbers are shared between customer and worker only after the worker accepts the booking."
+    ],
+    "hi": [
+     "वर्कर का फ़ोन नंबर कब दिखेगा?",
+     "गोपनीयता के लिए, वर्कर के बुकिंग स्वीकार करने के बाद ही ग्राहक और वर्कर के फ़ोन नंबर एक-दूसरे को दिखते हैं।"
+    ],
+    "hinglish": [
+     "Worker ka phone number kab dikhega?",
+     "Privacy ke liye, worker ke booking accept karne ke baad hi customer aur worker ke phone number ek-dusre ko dikhte hain."
+    ]
+   }
+  },
+  {
+   "id": "password",
+   "kws": [
+    "forgot",
+    "reset",
+    "password",
+    "login problem",
+    "पासवर्ड भूल",
+    "bhool",
+    "locked"
+   ],
+   "texts": {
+    "en": [
+     "I forgot my password / can't log in",
+     "Self-service password reset is not available yet. After 5 wrong attempts login is paused for 15 minutes. Please contact the Daily Ease administrator for help."
+    ],
+    "hi": [
+     "पासवर्ड भूल गया / लॉगिन नहीं हो रहा",
+     "अभी खुद पासवर्ड रीसेट की सुविधा नहीं है। 5 गलत प्रयासों के बाद 15 मिनट के लिए लॉगिन रुक जाता है। कृपया डेली ईज़ एडमिन से संपर्क करें।"
+    ],
+    "hinglish": [
+     "Password bhool gaya / login nahi ho raha",
+     "Abhi self-service password reset available nahi hai. 5 galat attempts ke baad 15 minute ke liye login ruk jata hai. Kripya Daily Ease admin se contact karein."
+    ]
+   }
+  },
+  {
+   "id": "language",
+   "kws": [
+    "language",
+    "hindi",
+    "english",
+    "hinglish",
+    "भाषा",
+    "bhasha",
+    "language change"
+   ],
+   "texts": {
+    "en": [
+     "How do I change the language?",
+     "Use the Language selector at the top of the sidebar to switch between English, हिन्दी and Hinglish at any time."
+    ],
+    "hi": [
+     "भाषा कैसे बदलूँ?",
+     "साइडबार में सबसे ऊपर 'भाषा' चुनें और English, हिन्दी या Hinglish में कभी भी बदलें।"
+    ],
+    "hinglish": [
+     "Language kaise badlein?",
+     "Sidebar mein sabse upar 'Bhasha' selector se English, हिन्दी ya Hinglish mein kabhi bhi switch karein."
+    ]
+   }
+  },
+  {
+   "id": "hello",
+   "kws": [
+    "hi",
+    "hello",
+    "hey",
+    "namaste",
+    "नमस्ते",
+    "hii",
+    "helo"
+   ],
+   "texts": {
+    "en": [
+     "Hello!",
+     "Hello! I can help with booking, registration, payments, ratings and more. What would you like to know?"
+    ],
+    "hi": [
+     "नमस्ते!",
+     "नमस्ते! मैं बुकिंग, रजिस्ट्रेशन, भुगतान, रेटिंग आदि में मदद कर सकता हूँ। आप क्या जानना चाहते हैं?"
+    ],
+    "hinglish": [
+     "Namaste!",
+     "Namaste! Main booking, registration, payment, rating aur aur cheezon mein madad kar sakta hoon. Aap kya jaanna chahte hain?"
+    ]
+   }
+  }
+ ],
+ "suggested": [
+  "book",
+  "payment",
+  "worker",
+  "cancel",
+  "verified"
+ ]
+}

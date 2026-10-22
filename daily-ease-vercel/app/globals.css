@@ -1,0 +1,50 @@
+:root{--brand:#0F766E;--brand-d:#115E59;--ink:#1F2937;--muted:#6B7280;--line:#E5E7EB;--bg:#F8FAFA}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Devanagari",sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}
+a{color:var(--brand-d)}
+.container{max-width:1000px;margin:0 auto;padding:16px}
+.nav{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;background:#fff;border-bottom:1px solid var(--line);padding:10px 16px}
+.nav .brand{font-weight:800;font-size:1.15rem;text-decoration:none;color:var(--brand)}
+.nav nav{display:flex;flex-wrap:wrap;gap:4px;flex:1}
+.nav nav a{padding:6px 10px;border-radius:8px;text-decoration:none;color:var(--ink)}
+.nav nav a.active,.nav nav a:hover{background:#E6F4F1;color:var(--brand-d)}
+.nav-right{display:flex;gap:8px;align-items:center}
+select,input,textarea{font:inherit;padding:9px 10px;border:1px solid #D1D5DB;border-radius:8px;background:#fff;width:100%}
+textarea{min-height:80px;resize:vertical}
+label{display:block;font-weight:600;font-size:.9rem;margin:10px 0 4px}
+.nav select{width:auto}
+.btn{font:inherit;font-weight:600;border:0;border-radius:8px;padding:9px 16px;background:var(--brand);color:#fff;cursor:pointer}
+.btn:hover{background:var(--brand-d)}.btn:disabled{opacity:.6;cursor:default}
+.btn.ghost{background:#fff;color:var(--brand-d);border:1px solid var(--brand)}
+.btn.danger{background:#fff;color:#B91C1C;border:1px solid #FCA5A5}
+.btn.sm{padding:6px 12px;font-size:.88rem}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.hero{background:linear-gradient(135deg,#0F766E,#14B8A6);color:#fff;border-radius:18px;padding:32px 24px;margin-bottom:20px}
+.hero h1{margin:0 0 6px;font-size:2.1rem;line-height:1.2}.hero p{margin:0;font-size:1.05rem;opacity:.95}
+.grid{display:grid;gap:12px}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}.g5{grid-template-columns:repeat(5,1fr)}
+.filters{display:grid;grid-template-columns:2fr 1.5fr 1.5fr;gap:12px}
+.step{background:#F0FDFA;border:1px solid #CCFBF1;border-radius:12px;padding:14px;color:#134E4A;font-weight:600}
+.wcard{display:flex;gap:14px;align-items:flex-start}
+.wcard img{width:72px;height:72px;border-radius:50%;object-fit:cover;flex:none;background:#eee}
+.grow{flex:1;min-width:0}.n{font-weight:700;font-size:1.05rem}.m{color:var(--muted);font-size:.9rem}
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:.75rem;margin:4px 4px 0 0;background:#E6F4F1;color:var(--brand-d)}
+.badge.off{background:#F3F4F6;color:#6B7280}
+.st{display:inline-block;padding:2px 10px;border-radius:999px;font-size:.78rem;font-weight:600}
+.st-pending{background:#FEF3C7;color:#92400E}.st-accepted{background:#DBEAFE;color:#1E40AF}
+.st-completed{background:#DCFCE7;color:#166534}.st-rejected,.st-cancelled{background:#FEE2E2;color:#991B1B}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.msg{padding:10px 12px;border-radius:8px;margin:10px 0}.msg.err{background:#FEE2E2;color:#991B1B}.msg.ok{background:#DCFCE7;color:#166534}
+.tabs{display:flex;gap:6px;margin-bottom:12px;flex-wrap:wrap}
+.metric{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center}.metric b{display:block;font-size:1.7rem;color:var(--brand)}
+.chat{display:flex;flex-direction:column;gap:8px;margin:12px 0}
+.bubble{max-width:85%;padding:10px 14px;border-radius:14px;background:#fff;border:1px solid var(--line)}
+.bubble.user{align-self:flex-end;background:var(--brand);color:#fff;border-color:var(--brand)}
+.form{max-width:460px}.form.wide{max-width:640px}
+.checkbox{display:flex;gap:8px;align-items:center;font-weight:500}.checkbox input{width:auto}
+@media (max-width:700px){
+  .hero{padding:20px 16px}.hero h1{font-size:1.55rem}
+  .g3,.g4,.g5,.filters{grid-template-columns:1fr 1fr}.filters{grid-template-columns:1fr}
+  .wcard img{width:56px;height:56px}.container{padding:12px}
+  .nav nav{order:3;flex-basis:100%;overflow-x:auto;flex-wrap:nowrap}.nav nav a{white-space:nowrap}
+}
+@media (max-width:420px){.g3,.g4,.g5{grid-template-columns:1fr}}
