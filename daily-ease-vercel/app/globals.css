@@ -48,3 +48,24 @@ label{display:block;font-weight:600;font-size:.9rem;margin:10px 0 4px}
   .nav nav{order:3;flex-basis:100%;overflow-x:auto;flex-wrap:nowrap}.nav nav a{white-space:nowrap}
 }
 @media (max-width:420px){.g3,.g4,.g5{grid-template-columns:1fr}}
+/* Daily Ease Website Background */
+body {
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.72),
+      rgba(255, 255, 255, 0.82)
+    ),
+    url("/daily-ease-bg.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+}
